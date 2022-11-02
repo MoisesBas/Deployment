@@ -1,0 +1,9 @@
+ingress:
+  host: eventtix-gateway
+  tlsSecret: eventtix-tls  
+image:
+  repository: eventtix/gateway-web
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}

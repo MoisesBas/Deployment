@@ -1,0 +1,26 @@
+{
+    "SwaggerEndPoints": [   
+      {
+        "Key": "booking",
+        "TransformByOcelotConfig": true,
+        "Config": [
+          {
+            "Name": "Booking Service",    
+            "version": "v1",   
+            "Url": "http://localhost:5201/swagger/v1/swagger.json"
+          }
+        ]
+      },
+      {
+        "Key": "common",
+        "TransformByOcelotConfig": true,
+        "Config": [
+          {
+            "Name": "Common Service",   
+            "version": "v1",     
+            "Url": "http://localhost:5062/swagger/v1/swagger.json"
+          }
+        ]
+      }
+    ]
+  }

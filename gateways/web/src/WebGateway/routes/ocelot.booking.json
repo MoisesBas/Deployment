@@ -1,0 +1,23 @@
+{
+    "Routes": [
+      {
+        "ServiceKey": "booking",
+        "DownstreamPathTemplate": "/{everything}",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5201
+          }
+        ],
+        "UpstreamPathTemplate": "/booking/{everything}",
+        "UpstreamHttpMethod": ["Put", "Delete", "Get", "Post"],
+        "QoSOptions": {
+          "ExceptionsAllowedBeforeBreaking": 2,
+          "DurationOfBreak": 2000,
+          "TimeoutValue": 5000
+        }
+      }
+    ]
+  }
+  

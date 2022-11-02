@@ -1,0 +1,9 @@
+ingress:
+  host: eventtix-common
+  tlsSecret: eventtix-tls  
+image:
+  repository: eventtix/service-common
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}

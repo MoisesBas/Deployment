@@ -1,0 +1,22 @@
+{
+  "Routes": [
+    {
+      "ServiceKey": "common",
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5062
+        }
+      ],
+      "UpstreamPathTemplate": "/common/{everything}",
+      "UpstreamHttpMethod": ["Put", "Delete", "Get", "Post"],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2,
+        "DurationOfBreak": 2000,
+        "TimeoutValue": 5000
+      }
+    }
+  ]
+}

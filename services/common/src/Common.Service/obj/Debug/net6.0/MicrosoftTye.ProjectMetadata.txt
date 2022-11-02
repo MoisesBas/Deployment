@@ -1,0 +1,21 @@
+AssemblyInformationalVersion:
+InformationalVersion: 1.0.0
+Version: 1.0.0
+TargetFrameworks:
+RunCommand: C:\Eventix\services\common\src\Common.Service\bin\Debug\net6.0\Common.Service.exe
+RunArguments:
+TargetPath: C:\Eventix\services\common\src\Common.Service\bin\Debug\net6.0\Common.Service.dll
+PublishDir: bin\Debug\net6.0\publish\
+AssemblyName: Common.Service
+IntermediateOutputPath: obj\Debug\net6.0\
+TargetFramework: net6.0
+_ShortFrameworkIdentifier:
+_ShortFrameworkVersion:
+_TargetFrameworkVersionWithoutV: 6.0
+FrameworkReference: Microsoft.NETCore.App;Microsoft.AspNetCore.App
+ContainerBaseImage:
+ContainerBaseTag:
+MicrosoftNETPlatformLibrary:
+_AspNetCoreAppSharedFxIsEnabled:
+UsingMicrosoftNETSdkWeb: true
+AzureFunctionsVersion:

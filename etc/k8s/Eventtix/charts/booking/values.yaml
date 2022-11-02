@@ -1,0 +1,9 @@
+ingress:
+  host: eventtix-booking
+  tlsSecret: eventtix-tls  
+image:
+  repository: eventtix/service-booking
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}

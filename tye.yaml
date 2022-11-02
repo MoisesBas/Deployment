@@ -1,0 +1,18 @@
+name: Eventix
+services:
+- name: web-gateway
+  project: gateways/web/src/WebGateway/WebGateway.csproj
+  bindings:
+    - protocol: http
+      port: 5141
+- name: booking-service
+  project: services/booking/src/Booking.Service/Booking.Service.csproj
+  bindings:
+    - protocol: http
+      port: 5201
+- name: common-service
+  project: services/common/src/Common.Service/Common.Service.csproj
+  bindings:
+    - protocol: http
+      port: 5062
+
